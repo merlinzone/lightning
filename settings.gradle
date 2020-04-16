@@ -1,0 +1,3 @@
+rootProject.name='lightning'
+include ':app'
+include ':lightning_lib'
