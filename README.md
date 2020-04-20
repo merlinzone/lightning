@@ -1,20 +1,21 @@
-# lightning
-----
-
-### 一、简介
+## 一、简介
 快如闪电的启动器
 
-### 二、引入
-Step 1. Add it in your root build.gradle at the end of repositories：
+## 二、导入方式
+### 将JitPack存储库添加到您的构建文件中(项目根目录下build.gradle文件)
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-Step 2. Add the dependency
-
-	dependencies {
-	        implementation 'com.github.ydstar:lightning:1.0.0'
-	}
+### 添加依赖项
+仅支持`AndroidX`
+```
+dependencies {
+    implementation 'com.github.ydstar:lightning:1.0.0'
+}
+```
