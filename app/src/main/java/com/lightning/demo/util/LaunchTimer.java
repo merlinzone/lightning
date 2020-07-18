@@ -7,7 +7,7 @@ import android.util.Log;
 /**
  * Author: 信仰年轻
  * Date: 2019-03-19 12:39
- * Email: houyadong@zhufaner.com
+ * Email: hydznsq@163.com
  * Des:
  */
 public class LaunchTimer {

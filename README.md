@@ -19,3 +19,16 @@ dependencies {
     implementation 'com.github.ydstar:lightning:1.0.0'
 }
 ```
+
+## 三、使用方法
+### 具体的使用方法可以参考Demo,以下的是在Application中的调用
+```
+     TaskDispatcher.init(this);
+     TaskDispatcher dispatcher = TaskDispatcher.createInstance();
+     dispatcher
+             .addTask(new InitBuglyTask())
+             .addTask(new InitLogTask())
+             .addTask(new InitUmengTask())
+             .start();
+     dispatcher.await();
+```
